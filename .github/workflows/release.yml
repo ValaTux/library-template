@@ -41,11 +41,20 @@ jobs:
             ninja-build \
             valac \
             pkg-config \
+            git \
             libglib2.0-dev \
             libgee-0.8-dev
 
+      - name: Setup Vamposer
+        uses: ValaTux/vamposer@v0.7.3
+        with:
+          version: 0.7.3
+
+      - name: Install Vamposer dependencies
+        run: vamposer install
+
       - name: Configure release build
-        run: meson setup build-release --buildtype=release
+        run: meson setup build-release --buildtype=release -Dtests=false
 
       - name: Build release
         run: meson compile -C build-release
