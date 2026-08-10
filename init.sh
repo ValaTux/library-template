@@ -8,7 +8,7 @@ NC='\033[0m'
 
 PROJECT_SLUG="vala-library-template"
 DEPENDENCY_NAME="vala_library_template"
-REPO_URL="https://github.com/ValaFoundation/library-template.git"
+REPO_URL="https://github.com/ValaTux/library-template.git"
 REPO_REF="master"
 
 echo -e "${BLUE}==> Initializing ${PROJECT_SLUG} dependency...${NC}"

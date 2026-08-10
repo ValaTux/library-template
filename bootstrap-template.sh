@@ -8,7 +8,7 @@ NC='\033[0m'
 
 OLD_SLUG="vala-library-template"
 OLD_DEP_NAME="vala_library_template"
-OLD_GH_REPO="ValaFoundation/library-template"
+OLD_GH_REPO="ValaTux/library-template"
 OLD_TITLE="Vala library template"
 
 to_slug() {

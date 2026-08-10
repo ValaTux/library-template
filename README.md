@@ -82,7 +82,7 @@ In consumer project root:
 Or run directly from GitHub:
 
 ```sh
-curl -sSfL https://raw.githubusercontent.com/ValaFoundation/library-template/master/init.sh -o init.sh && chmod +x init.sh && ./init.sh && rm init.sh
+curl -sSfL https://raw.githubusercontent.com/ValaTux/library-template/master/init.sh -o init.sh && chmod +x init.sh && ./init.sh && rm init.sh
 ```
 
 ### Option 2: Local vapi/lib/include integration
@@ -90,7 +90,7 @@ curl -sSfL https://raw.githubusercontent.com/ValaFoundation/library-template/mas
 In consumer project root:
 
 ```sh
-curl -sSfL https://raw.githubusercontent.com/ValaFoundation/library-template/master/init-local-vapi.sh | bash
+curl -sSfL https://raw.githubusercontent.com/ValaTux/library-template/master/init-local-vapi.sh | bash
 ```
 
 This helper downloads release artifacts (or builds from source) and prepares local `vapi/`, `lib/`, and `include/` folders plus reusable Meson variables.
